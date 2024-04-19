@@ -5,10 +5,10 @@
 #define DHTPIN D4
 #define DHTTYPE DHT11
 
-const char* ssid = "Error";
-const char* pass = "error404";
+const char* ssid = "E";
+const char* pass = "knzjxnjsdn";
 const uint16_t port = 80;
-const char* host = "192.168.172.32";
+const char* host = "192...";
 
 String BASE_URL = "http://" + String(host) + "/nodemcu/public/Dht11/uploaddata";
 DHT dht(DHTPIN, DHTTYPE);
